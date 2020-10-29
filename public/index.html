@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TI4 - Heroes Cheat Sheet</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" href="includes/ti4hcsstyle.css">
+  </head>
+  <body>
+    <div id="races">
+      <p>Please select the races that are in the game:</p>
+      <ul class="mdl-list">
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Arborec.png" class="racebtnimg" /><br />Arborec
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Creuss.png" class="racebtnimg" /><br />Ghost of Creuss
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Hacan.png" class="racebtnimg" /><br />Hacan
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/JolNar.png" class="racebtnimg" /><br />Jol Nar
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/L1Z1X.png" class="racebtnimg" /><br />Mindnet L1Z1X
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Letnev.png" class="racebtnimg" /><br />Letnev
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Mentak.png" class="racebtnimg" /><br />Mentak
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Muaat.png" class="racebtnimg" /><br />Muaat
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Naalu.png" class="racebtnimg" /><br />Naalu
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Nekro.png" class="racebtnimg" /><br />Nekro
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Saar.png" class="racebtnimg" /><br />Saar
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Sardakk.png" class="racebtnimg" /><br />Sardakk
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Sol.png" class="racebtnimg" /><br />Sol
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Winnu.png" class="racebtnimg" /><br />Winnu
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Xxcha.png" class="racebtnimg" /><br />Xxcha
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Yin.png" class="racebtnimg" /><br />Yin
+          </button>
+        </li>
+        <li class="mdl-list__item">
+          <button class="racebtn">
+            <img src="images/Yssaril.png" class="racebtnimg" /><br />Yssaril
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div id="selected" class="hide">
+      <div class="playerRdy"></div>
+      <input id="number" type="number" class="initlbl" placeholder="26" />
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored rdybtn">READY</button>
+    </div>
+    <script>
+      var races = sessionStorage.getItem('races');
+      if (races !== null) {
+        
+      } else {
+        
+      }
+    </script>
+  </body>
+</html>
