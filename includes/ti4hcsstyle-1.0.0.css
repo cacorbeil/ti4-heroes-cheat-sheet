@@ -25,3 +25,11 @@
 .races-selected {
    margin-top: 10px;
 }
+.smallimg {
+   max-width: 18px;
+   max-height: 18px;
+}
+.listheader {
+   background-color: #080808;
+   color: #FAFAFA;
+}
